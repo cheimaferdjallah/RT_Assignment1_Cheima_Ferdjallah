@@ -93,6 +93,7 @@ While true:
     If all markers picked:
         Print "Done!"
         Break loop
+```
 ## How to RUN the code
 -----------------------------
 
@@ -112,9 +113,19 @@ Use the following line :
 ```bash
 $ gedit assignment1.py
 ```
+## Getting Started:
+
+1. Clone the repository using:
+bash
+git clone https://github.com/li-dia/RT-Assignment1-Loubar-Lidia.git
+
+2. When done, go to robot-sim folder, you can run the program with:
+
+bash
+$ python run.py assignment.py
 
 ## Future improvements
 -----------------------------
 
 The code can be optimized by making the robot first retrieving the reference token (Box) and relocating it to the center before beginning its search for other tokens. This strategy reduces the time spent searching for the remaining tokens, as positioning the robot in the middle guarantees that all tokens are within its sight.
-```
+
