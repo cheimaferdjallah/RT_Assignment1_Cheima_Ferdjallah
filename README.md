@@ -100,7 +100,7 @@ While true:
 1. Clone the repository using:
 ```bash
 git clone https://github.com/cheimaferdjallah/RT_Assignment1_Cheima_Ferdjallah.git
-
+```
 2. When done, go to "robot-sim" folder, you can run the program with:
 ```bash
 $ python run.py assignment1.py
