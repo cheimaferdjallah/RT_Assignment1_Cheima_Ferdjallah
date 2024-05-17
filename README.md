@@ -97,15 +97,14 @@ While true:
 ## How to RUN the code
 -----------------------------
 
-After cloning the repositoriy on your machine, you need to navigate to the folder "robot-sim". then you are able to run the code.
-To run the script in the simulator, use `run.py`, passing it the file names. 
+1. Clone the repository using:
+```bash
+git clone https://github.com/cheimaferdjallah/RT_Assignment1_Cheima_Ferdjallah.git
 
-you can run the program with:
-
+2. When done, go to "robot-sim" folder, you can run the program with:
 ```bash
 $ python run.py assignment1.py
 ```
-
 If you want to check the code you can use `gedit` to see the code structure.
 
 Use the following line :
@@ -113,16 +112,6 @@ Use the following line :
 ```bash
 $ gedit assignment1.py
 ```
-## Getting Started:
-
-1. Clone the repository using:
-bash
-git clone https://github.com/li-dia/RT-Assignment1-Loubar-Lidia.git
-
-2. When done, go to robot-sim folder, you can run the program with:
-
-bash
-$ python run.py assignment.py
 
 ## Future improvements
 -----------------------------
