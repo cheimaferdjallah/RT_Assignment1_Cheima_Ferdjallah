@@ -2,6 +2,7 @@
 This solution showcases a basic robotic behavior – using markers and a reference point to navigate, pick up objects, and place them at a specific location.
 ## Pseudo code
 ----------------------
+```python
 Initialize picked_up_markers list
 Initialize reference_token as None
 Initialize ref_token_code as 0
@@ -116,3 +117,4 @@ $ gedit assignment1.py
 -----------------------------
 
 The code can be optimized by making the robot first retrieving the reference token (Box) and relocating it to the center before beginning its search for other tokens. This strategy reduces the time spent searching for the remaining tokens, as positioning the robot in the middle guarantees that all tokens are within its sight.
+```
